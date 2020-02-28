@@ -28,7 +28,7 @@ void randData(double *d,int n,int m){
 	for(int i=0;i<n;i++){
 		for(int j=0;j<m;j++){
 		
-			 *((d+i)+j)=rand()%100/100.0;
+			 *((d+i)+j)=rand()%101/100.0;
 			
 		}
 	}
